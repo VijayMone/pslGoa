@@ -9,7 +9,7 @@ public class HelloRestController {
 	
 	@RequestMapping(path = "/hello.do",method = RequestMethod.GET)
 	public String[] sayhello() {
-		String[] topics = {"java","JSP","Spring"};
+		String[] topics = {"java","JSP","Spring" };
 		return topics;
 	}
 
